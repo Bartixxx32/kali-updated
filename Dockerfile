@@ -9,6 +9,5 @@ RUN rm -fR /var/lib/apt/
 RUN apt-get clean
 RUN apt-get update -y
 RUN apt-get upgrade -y
-RUN updatedb
 
 CMD ["/bin/bash"]
